@@ -8,4 +8,4 @@
 
 ### [Apparel](Apparel.html)
 
-### [Accessories](Accesories.html)
+### [Accessories](Accessories.html)
