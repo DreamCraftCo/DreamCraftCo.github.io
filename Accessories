@@ -1,13 +1,78 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="./style.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessories</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+    <header>
+        <h1>Accessories</h1>
+        <div id="cart">Cart (<span id="cart-count">0</span>)</div>
+    </header>
 
-<h1>Accessories</h1>
+    <main class="product-grid">
+    
+        <div class="product-card">
+            <img src="placeholder-accessory.jpg" alt="Catfeine Necklace">
+            <h3>Catfeine Necklace</h3>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
 
-<p>I'm under construction!</p>
+        <div class="product-card">
+            <img src="placeholder-accessory.jpg" alt="DogPressed Necklace">
+            <h3>DogPressed Necklace</h3>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
 
+        <div class="product-card">
+            <img src="placeholder-accessory.jpg" alt="Floppy FlopZee Necklace">
+            <h3>Floppy FlopZee Necklace</h3>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="placeholder-accessory.jpg" alt="Groddy GrudgeBear Necklace">
+            <h3>Groddy GrudgeBear Necklace</h3>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="placeholder-accessory.jpg" alt="UniqueCorn Necklace">
+            <h3>UniqeCorn Necklace</h3>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="placeholder-accessory.jpg" alt="IckyPiggy Necklace">
+            <h3>IckyPiggy Necklace</h3>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="placeholder-accessory.jpg" alt="Wimpin Chikin Necklace">
+            <h3>Wimpin Chikin Necklace</h3>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="placeholder-accessory.jpg" alt="Dumbba Dumbbaphant Necklace">
+            <h3>Dumbba Dumbbaphant Necklace</h3>
+            <p>$9.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+</main>
+
+    <script src="script.js"></script>
 </body>
 </html>
+
