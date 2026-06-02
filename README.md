@@ -1,11 +1,11 @@
 # DreamCraftCo
 
-### [Home](Home.html)
+### [Home](index.html)
 
-### [New Arrivals](NewArrivals.html)
+### [New Arrivals](new-arrivals.html)
 
-### [Shop All](ShopAll.html)
+### [Accessories](accessories.html)
 
-### [Apparel](Apparel.html)
+### [Apparel](apparel.html)
 
-### [Accessories](Accessories.html)
+### [Shop All](shop-all.html)
