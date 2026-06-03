@@ -37,6 +37,7 @@
   }
 </style>
 </head>
+
 <body>
 
   <div class="nav-container">
@@ -47,10 +48,5 @@
     <a href="#shop-all.html" class="nav-item">Shop All</a>
   </div>
 
-    <footer>
-        <p>&copy; 2026 DreamCraftCo. All rights reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
