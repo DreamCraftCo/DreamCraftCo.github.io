@@ -1,5 +1,6 @@
 # DreamCraftCo.
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -15,6 +16,6 @@
     <a href="#apparel.html" class="nav-item">Apparel</a>
     <a href="#shop-all.html" class="nav-item">Shop All</a>
   </div>
-
+  
 </body>
 </html>
