@@ -1,5 +1,3 @@
-# DreamCraftCo.
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
