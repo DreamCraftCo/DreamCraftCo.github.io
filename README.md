@@ -9,6 +9,7 @@
 <title>DreamCraftCo.</title>
 <style>
 
+<body>
   body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -34,6 +35,7 @@
   .nav-item:hover {
     color: #003366;
     text-decoration: underline;
+</body>
 
 </head>
 <body>
