@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="./style.css">
-    </head>
+<head>
+    <link rel="stylesheet" href="./style.css">
+</head>
 <body>
 
 <h1>New Arrivals</h1>
-
 <p>I'm under construction!</p>
+
+<script>
+window.alert(New arrivals drop every Tuesday!);
+</script>
 
 </body>
 </html>
