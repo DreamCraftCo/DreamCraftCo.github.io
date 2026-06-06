@@ -14,4 +14,5 @@
       <a href="#shop-all.html" class="nav-item">Shop All</a>
     </div>  
   </body>
+</head>
 </html>
