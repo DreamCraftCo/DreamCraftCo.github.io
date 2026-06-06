@@ -4,20 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My GitHub Website Homepage</title>
-    <!-- Link to an external CSS file stored in the repository -->
-    <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
-
-    <header>
-        <h1>Welcome to My GitHub Page!</h1>
-    </header>
-
-    <main>
-        <p>This page is served directly from a GitHub repository.</p>
-    </main>
-
-    <!-- Link to an external JavaScript file stored in the repository -->
-    <script src="script.js"></script>
+    <h1>Welcome to My GitHub Page!</h1>
+    <p>This page is hosted directly from a Github repository.</p>
 </body>
 </html>
