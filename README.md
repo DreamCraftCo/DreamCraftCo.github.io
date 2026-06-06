@@ -8,23 +8,21 @@
 
 <title>DreamCraftCo.</title>
 <style>
-  /* Basic page reset */
+
   body {
     margin: 0;
     font-family: Arial, sans-serif;
   }
 
-  /* Container to center the items at the top */
   .nav-container {
     display: flex;
     justify-content: center;
-    gap: 30px; /* Space between the items */
+    gap: 30px;
     padding: 20px 0;
-    background-color: #f4f4f4; /* Optional background color */
+    background-color: #f4f4f4;
     width: 100%;
   }
 
-  /* Style for the clickable text */
   .nav-item {
     text-decoration: none;
     color: #0066cc;
@@ -33,7 +31,6 @@
     cursor: pointer;
   }
 
-  /* Hover effect for better user experience */
   .nav-item:hover {
     color: #003366;
     text-decoration: underline;
