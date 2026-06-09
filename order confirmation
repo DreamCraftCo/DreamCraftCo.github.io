@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmation</title>
+  <style>
+    @media only screen and (max-width: 600px) {
+      .container { width: 100% !important; padding: 10px !important; }
+      .col { display: block !important; width: 100% !important; padding-left: 0 !important; padding-right: 0 !important; }
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f6f8fa; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #f6f8fa; padding: 20px 0;">
+    <tr>
+      <td align="center">
+        
+        <!-- Main Email Container -->
+        <table class="container" width="600" border="0" cellspacing="0" cellpadding="0" style="background-color: #ffffff; border: 1px solid #d0d7de; border-radius: 6px; overflow: hidden;">
+          
+          <!-- Header Banner -->
+          <tr>
+            <td style="background-color: #24292f; padding: 24px; text-align: center;">
+              <h1 style="color: #ffffff; margin: 0; font-size: 24px; font-weight: 600;">Order Confirmed</h1>
+              <p style="color: #8c959f; margin: 5px 0 0 0; font-size: 14px;">Thank you for your purchase!</p>
+            </td>
+          </tr>
+
+          <!-- Body Content -->
+          <tr>
+            <td style="padding: 24px;">
+              <p style="margin: 0 0 16px 0; font-size: 16px; color: #24292f; line-height: 1.5;">
+                Hi <strong>[Customer Name]</strong>,
+              </p>
+              <p style="margin: 0 0 24px 0; font-size: 14px; color: #57606a; line-height: 1.5;">
+                We have received your order and are getting it ready. You will receive another notification with a tracking number once your package ships.
+              </p>
+
+              <!-- Order Summary Block -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 24px; border: 1px solid #d0d7de; border-radius: 6px; padding: 16px;">
+                <tr>
+                  <td style="font-size: 14px; color: #57606a; padding-bottom: 4px;"><strong>Order Number:</strong> #[Order Number]</td>
+                </tr>
+                <tr>
+                  <td style="font-size: 14px; color: #57606a;"><strong>Order Date:</strong> [Date]</td>
+                </tr>
+              </table>
+
+              <!-- Product Table -->
+              <h3 style="font-size: 16px; color: #24292f; margin: 0 0 12px 0; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">Items Ordered</h3>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 24px;">
+                
+                <!-- Item 1 Row -->
+                <tr>
+                  <td style="padding: 12px 0; font-size: 14px; color: #24292f;">
+                    <strong>[Product Name Name]</strong><br>
+                    <span style="color: #57606a; font-size: 12px;">Qty: [Quantity]</span>
+                  </td>
+                  <td align="right" style="padding: 12px 0; font-size: 14px; color: #24292f; font-weight: 600;">
+                    $[Item Price]
+                  </td>
+                </tr>
+                
+                <!-- Financial Totals Breakdowns -->
+                <tr style="border-top: 1px solid #border-top: 1px solid #f6f8fa;">
+                  <td style="padding: 12px 0 4px 0; font-size: 14px; color: #57606a;">Subtotal</td>
+                  <td align="right" style="padding: 12px 0 4px 0; font-size: 14px; color: #24292f;">$[Subtotal]</td>
+                </tr>
+                <tr>
+                  <td style="padding: 4px 0; font-size: 14px; color: #57606a;">Shipping</td>
+                  <td align="right" style="padding: 4px 0; font-size: 14px; color: #24292f;">$[Shipping]</td>
+                </tr>
+                <tr>
+                  <td style="padding: 4px 0 12px 0; font-size: 14px; color: #57606a; border-bottom: 1px solid #d0d7de;">Tax</td>
+                  <td align="right" style="padding: 4px 0 12px 0; font-size: 14px; color: #24292f; border-bottom: 1px solid #d0d7de;">$[Tax]</td>
+                </tr>
+                <tr>
+                  <td style="padding: 16px 0 0 0; font-size: 16px; color: #24292f; font-weight: 600;">Total</td>
+                  <td align="right" style="padding: 16px 0 0 0; font-size: 18px; color: #0969da; font-weight: bold;">$[Total Price]</td>
+                </tr>
+              </table>
+
+              <!-- Call to Action Button -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-bottom: 24px;">
+                <tr>
+                  <td align="center">
+                    <a href="[Order_Status_URL]" style="background-color: #2da44e; color: #ffffff; padding: 12px 24px; text-decoration: none; font-size: 14px; font-weight: 600; border-radius: 6px; display: inline-block;">View Order Status</a>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Shipping & Billing Details Split Section -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-top: 1px solid #d0d7de; padding-top: 20px;">
+                <tr>
+                  <!-- Shipping Column -->
+                  <td class="col" width="50%" valign="top" style="padding-right: 10px;">
+                    <h4 style="margin: 0 0 8px 0; font-size: 14px; color: #24292f;">Shipping Address</h4>
+                    <p style="margin: 0; font-size: 13px; color: #57606a; line-height: 1.4;">
+                      [Customer Name]<br>
+                      [Street Address]<br>
+                      [City, State, Zip Code]<br>
+                      [Country]
+                    </p>
+                  </td>
+                  <!-- Billing Column -->
+                  <td class="col" width="50%" valign="top" style="padding-left: 10px;">
+                    <h4 style="margin: 0 0 8px 0; font-size: 14px; color: #24292f;">Payment Method</h4>
+                    <p style="margin: 0; font-size: 13px; color: #57606a; line-height: 1.4;">
+                      [Card Brand] ending in [Last 4 Digits]<br>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- Footer Text -->
+          <tr>
+            <td style="background-color: #f6f8fa; padding: 24px; border-top: 1px solid #d0d7de; text-align: center;">
+              <p style="margin: 0; font-size: 12px; color: #57606a;">
+                If you have any questions, reply to this email or contact us at <a href="mailto:[Support_Email]" style="color: #0969da; text-decoration: none;">[Support_Email]</a>.
+              </p>
+              <p style="margin: 8px 0 0 0; font-size: 12px; color: #8c959f;">
+                © [Year] [Company Name]. All rights reserved.
+              </p>
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
