@@ -11,11 +11,6 @@
       <a href="#apparel.html" class="nav-item">Apparel</a>
       <a href="#shop-all.html" class="nav-item">Shop All</a>
     </div>
-      [Home](index.html)
-      [New Arrivals](new-arrivals.html)
-      [Accessories](accessories.html)
-      [Apparel](apparel.html)
-      [Shop All](shop-all.html)
   </body>
 </head>
 </html>
