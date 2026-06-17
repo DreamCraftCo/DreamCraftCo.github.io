@@ -1,4 +1,4 @@
-# DreamCraftCo.
+# DreamCraftCo
 
 <html lang="en">
 <head>
