@@ -1,10 +1,11 @@
+<div align="center">
+
 # DreamCraftCo
 
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<div align="center">
 <body>
     <div class="nav-container">
         <a href="index.html" class="nav-item">Home</a>
@@ -14,6 +15,6 @@
         <a href="shop-all.html" class="nav-item">Shop All</a>
     </div>
 </body>
-</div>
 </head>
 </html>
+</div>
