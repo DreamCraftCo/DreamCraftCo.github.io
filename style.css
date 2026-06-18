@@ -1,5 +1,7 @@
 body {
-    background-color: black;
+    font-family: 'Copperplate', serif;
+    color: #000000
+    background-color: #ffc0cb;
 }
 
 h1 {
