@@ -2,7 +2,7 @@ body {
     font-family: 'Copperplate', serif;
     background-color: #[FFC0CB];
     padding: 20px;
-    color: #[000000];
+    color: #[000000]
 }
 
 h1 {
@@ -11,5 +11,5 @@ h1 {
     font-weight: 300;
     color: #[301934];
     letter-spacing: 4px;
-    margin-left: 20px;
+    margin-left: 20px
 }
