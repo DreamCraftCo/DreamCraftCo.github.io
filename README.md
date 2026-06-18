@@ -1,6 +1,6 @@
 <div align="center">
 
-# DreamCraftCo
+# DreamCraftCo.
 
 <html lang="en">
 <head>
