@@ -12,7 +12,7 @@
         <a href="accessories.html" class="nav-item">Accessories</a>
         <a href="apparel.html" class="nav-item">Apparel</a>
         <a href="shop-all.html" class="nav-item">Shop All</a>
-      </div>
+    </div>
   </body>
 </head>
 </html>
