@@ -1,15 +1,15 @@
 body {
     font-family: 'Copperplate', serif;
-    background-color: #FFC0CB;
+    background-color: #[FFC0CB];
     padding: 20px;
-    color: #000000
+    color: #[000000];
 }
 
 h1 {
     font-family: 'Copperplate', serif;
     font-size: 2.5rem;
     font-weight: 300;
-    color: #ADD8E6;
-    letter-spacing: 4px
+    color: #[301934];
+    letter-spacing: 4px;
     margin-left: 20px;
 }
