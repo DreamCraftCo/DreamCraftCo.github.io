@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
     <div class="nav-container">
-        <a href="index.html" class="nav-item">Home</a>
+        <a href="home.html" class="nav-item">Home</a>
         <a href="new-arrivals.html" class="nav-item">New Arrivals</a>
         <a href="accessories.html" class="nav-item">Accessories</a>
         <a href="apparel.html" class="nav-item">Apparel</a>
